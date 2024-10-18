@@ -1,0 +1,39 @@
+.mainDiv{
+    height: 400px;
+ background: rgba(229, 84, 115, 0.1);
+ display: flex;
+
+}
+.left{
+    width: 50%;
+   
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.leftChild{
+    width:60%;
+}
+.ha1{
+    font-size: 47px;
+}
+.btn{
+    border-radius: 8px;
+background: rgb(229, 84, 115);
+padding: 8px 12px ;
+border: none;
+}
+.right{
+    width: 50%;
+   
+    display: flex;
+    justify-content: center;
+    align-items: end;
+
+}
+.right img{
+    height: 90%;
+    background: rgba(229, 84, 115, 0.1);
+
+}
