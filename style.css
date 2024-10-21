@@ -72,7 +72,31 @@
     align-items: end;
     border-radius: 50% 50% 0 0;
 }
+.image2{
+    background-color:#daf0f1 ;
+}
+.image3{
+    background-color:#e4ecdc ;
+}
 .image{
     width: 220px;
     height: 250px;
+}
+/* cartoon */
+.cDiv{
+    background-color: #f4f4f4;
+    width: 66%;
+    height: 220px;
+    margin: 50px auto;
+    display: grid;
+    grid-template-columns: auto auto auto;
+    justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.cBox{
+    text-align: center;
+}
+.cBox img{
+    width: 50px;
 }
